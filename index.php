@@ -8,6 +8,7 @@
     
     $produtosRepositorio = new ProdutoRepositorio ($pdo);
     $dadosCafe = $produtosRepositorio -> opcoesCafe();
+    $dadosAlmoco = $produtosRepositorio -> opcoesAlmoco();
 
 
     //inserindo dados do cardapio almoco no BD  
